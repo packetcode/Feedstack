@@ -1,0 +1,8 @@
+Feedstack is built on pathang framework and is licensed under the GNU General Public License, 
+version 2 or later. That means you are free to download, reuse, modify, and distribute any files assocaited with 
+Feedstack  under the terms of either the GPL version 2 or version 3. 
+Learn more about GNU GPL from here http://www.gnu.org/licenses/gpl-2.0.html
+
+- Happy Coding 
+ur's Krishna Teja
+https://twitter.com/shaadomanthra

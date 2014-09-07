@@ -1,0 +1,95 @@
+
+.member-body{
+	background: white;
+}
+.member{
+	padding:0px;
+	width:150px;
+}
+.bcol-member-block{
+	width:150px;
+	border:1px solid #ecf0f1;
+	padding:5px 3px 5px 3px;
+	margin:1%;
+}
+.member-image{
+	width:140px;
+}
+.member-name{
+	font-weight: bold;
+	padding:5px;
+
+}
+.member-button{
+	padding-bottom: 15px;
+}
+.btn-follow{
+	background:#16a085;
+	padding:3px 8px;
+}
+.btn-following{
+	background:#7f8c8d;
+		padding:3px 8px;
+}
+input.member-search{
+	padding:10px;
+	font-size: 15px
+}
+.member-seach-span{
+	float:right;
+	margin-top:-10px;
+}
+.header-member{
+	background:white;
+	padding:30px 30px 0px 30px;
+	margin-bottom: 10px;
+	font-size:30px;
+}
+.no-member{
+	padding:10px;
+	background: #f8f8f8;
+	margin:10px 10px;
+	border-radius: 5px;
+}
+.member-container{
+	padding:10px;
+}
+.loadmore-members{
+	margin:10px;
+	padding:10px;
+	border:1px solid #bdc3c7;
+	border-radius: 4px;
+	cursor:pointer;
+}
+
+/* for devices less than 480px screen */
+@media screen and (max-width:640px){
+.header-member{
+	background:white;
+	padding:25px 25px 10px 20px;
+	margin-bottom: 10px;
+	font-size:25px;
+	line-height: 35px;
+}
+.member-seach-span{
+	margin:10px 0px;
+	width: 100%;
+}
+.member-search{
+	width:100%;
+
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.bcol-member-block{
+	width:120px;
+}
+.member-image{
+	width:100%;
+}
+.member{
+	width:100%;
+}
+}
+

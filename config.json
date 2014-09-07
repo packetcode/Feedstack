@@ -1,0 +1,51 @@
+{
+    "SITE": {
+        "ROOT": "http://feedstack.asia/",
+        "SECURE": "0",
+        "HASH": "20197c7",
+        "INSTALLATION": "0",
+        "THEME": "simplex",
+        "PAGE": "admin",
+        "SESSION_EXPIRE": "1800",
+        "LOGO": "http:\/\/feedstack.asia\/img\/logo.png",
+        "FOOTER": "Feedstack - A php social networking script | a <a href=\"http:\/\/packetcode.com\">packetcode<\/a> production"
+    },
+    "DB": {
+        "DB_NAME": "",
+        "HOST": "",
+        "USERNAME": "",
+        "PASSWORD": ""
+    },
+    "META": {
+        "SITE_NAME": "Feedstack ",
+        "SITE_URL": "http://feedstack.asia/",
+        "TITLE": "Feedstack",
+        "AUTHOR": "krishna Teja",
+        "DESC": "A Social networking script designed using php jquery and mysql and sql",
+        "KEYWORDS": "social networking script,php,network,krishna teja,feedstack,packetcode",
+        "IMAGE": "http:\/\/feedstack.asia\/img\/logo.png"
+    },
+    "MAILGUN": {
+        "API_KEY": "",
+        "DOMAIN_NAME": "",
+        "ADMIN_EMAIL": ""
+    },
+    "AD_BLOCK": {
+        "VISIBLE": "0",
+        "250": "<script async src=\"\/\/pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js\"><\/script><ins class=\"adsbygoogle\" style=\"display:inline-block;width:250px;height:250px\" data-ad-client=\"ca-pub-4970258300493014\" data-ad-slot=\"4392677881\"><\/ins><script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script>",
+        "728": "<script async src=\"\/\/pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js\"><\/script><ins class=\"adsbygoogle\" style=\"display:inline-block;width:728px;height:90px\" data-ad-client=\"ca-pub-4970258300493014\" data-ad-slot=\"3924686286\"><\/ins><script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script>",
+        "468": "<script async src=\"\/\/pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js\"><\/script><ins class=\"adsbygoogle\" style=\"display:inline-block;width:468px;height:60px\" data-ad-client=\"ca-pub-4970258300493014\" data-ad-slot=\"6069796688\"><\/ins><script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script>"
+    },
+    "FEEDSTACK": {
+        "FEED_COUNT": "10",
+        "COMMENT_COUNT": "3",
+        "MEMBER_COUNT": "20",
+        "NOTIFICATION_CENTER_COUNT": "10",
+        "DEFAULT_FOLLOW": ""
+    },
+    "SOCIAL_LINKS": {
+        "FACEBOOK": "https:\/\/www.facebook.com\/groups\/packetcode\/",
+        "TWITTER": "https:\/\/twitter.com\/shaadomanthra",
+        "GOOGLE_PLUS": "https:\/\/plus.google.com\/+packetcode"
+    }
+}

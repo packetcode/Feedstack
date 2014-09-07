@@ -1,0 +1,157 @@
+.header-bar{
+	padding:20px;
+	background: white;
+}
+.admin-title{
+	padding:10px 20px;
+	line-height: 30px;
+	font-size: 30px;
+}
+.head-dashboard{
+	background-color:#16a085;
+	padding:25px;
+}
+.heading-admin{
+	color:White;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 35px;
+}
+.input{
+	width:100%;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  	outline: 0;
+	padding:8px; 
+	font-size:1.1em; 
+	color:#34495e; 
+	border:solid 1px #ccc; 
+	margin:0px 0 5px; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px;
+}
+.settings-block{
+	margin-bottom: 20px;
+}
+.setting-item{
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 10px;
+	color:#7f8c8d;
+
+}
+.settings-body{
+	padding-left: 10px;
+}
+.settings-heading{
+	font-size: 15px;
+	background: #f8f8f8;
+	font-weight: bold;
+	padding:10px;
+}
+.green{
+	background: #16a085;
+}
+.save{
+	background: #f39c12;
+	padding:10px;
+	color:white;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.dashboard{
+	background: white;
+	min-height: 400px;
+}
+.head-dashboard{
+	background-color:#16a085;
+	padding:25px;
+}
+.heading-admin{
+	color:White;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 35px;
+}
+.stats{
+	padding:20px;
+	padding-bottom: 50px;
+	min-height: 90px;
+	background: #f8f8f8;
+	color: #34495e;
+	border-right: 1px solid #E8E8E8 ;
+	border-left: 1px solid #E8E8E8 ;
+}
+.info-block{
+	padding:20px;
+	padding-bottom: 10px
+}
+.info-block-inner{
+	padding:10px;
+}
+.stat-item{
+	border-radius: 15px;
+	margin:10px;
+	background: white;
+	padding:15px;
+}
+.stat-item-number{
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+}
+.setting-item-info{
+	font-weight: normal;
+	background: #f8f8f8;
+	padding:3px 6px;
+	color:silver;
+	margin-top: -3px;
+	font-size: 12px;
+}
+.stat-item-term{
+	text-align: center;
+}
+
+.btn {
+	padding:3px 10px;
+	background: #16a085;
+
+}
+.b2{
+	padding-top: 0px;
+}
+#hor-minimalist-b th{
+	border-bottom: 2px solid silver;
+	color:#2c3e50;
+}
+#hor-minimalist-b tbody tr:hover td{
+	color:#2c3e50;
+}
+#hor-minimalist-b td {
+	color:#7f8c8d;
+}
+.info-feedstack{
+	margin:10px;
+	padding:25px 15px 10px;
+	background: #f8f8f8;
+	border-top: 1px solid silver;
+}
+@media screen and (max-width:480px){
+	.stats{
+		height: 450px;
+	}
+	.feedstack_logo{
+		width:100%;
+	}
+	.feed-menu{
+		left:0px;
+	}
+	.feed-menu-container{
+		background: #2980b9;
+	}
+	.bcol-25,.bcol-50{
+		width:100%;
+	}
+}

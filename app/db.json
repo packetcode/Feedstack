@@ -1,0 +1,8 @@
+{
+	"users":"CREATE TABLE users( id INT NOT NULL AUTO_INCREMENT, name VARCHAR(20) , username VARCHAR(20) , password VARCHAR(50),email VARCHAR(30), bio VARCHAR(100),image_type VARCHAR(20),block int,activation VARCHAR(10),type int,access int, feeds_per_page int,creation_timestamp   datetime ,lastlogin_timestamp datetime, primary key ( id ));",
+	"notifications":"CREATE TABLE notifications( id INT NOT NULL AUTO_INCREMENT, uid int , agent int , target int, action VARCHAR(20), time_stamp   datetime ,status int, primary key ( id ));",
+	"likes":"CREATE TABLE likes( id INT NOT NULL AUTO_INCREMENT, uid int , feed_id int , time_stamp   datetime , primary key ( id ));",
+	"followers":"CREATE TABLE followers( id INT NOT NULL AUTO_INCREMENT, uid int , follow_id int, time_stamp   datetime , primary key ( id ));",
+	"comments":"CREATE TABLE comments( id INT NOT NULL AUTO_INCREMENT, uid int , feed_id int , comment mediumtext, time_stamp   datetime , primary key ( id ));",
+	"feeds":"CREATE TABLE feeds( id INT NOT NULL AUTO_INCREMENT, uid int , feed_original longtext,feed longtext,feed_url VARCHAR(500),feed_container longtext,feed_type VARCHAR(10), time_stamp   datetime ,views int, primary key ( id ));"
+}
