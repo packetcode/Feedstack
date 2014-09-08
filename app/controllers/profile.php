@@ -80,7 +80,7 @@ class ControllerProfile{
 					foreach($b as $c => $d)
 						$feedTemp->$c = $d;
 					$feedTemp->image ='';
-					$feedTemp->feed = htmlspecialchars_decode($feedTemp->feed);
+					$feedTemp->feed = $feedTemp->feed;
 					$feedTemp->profile_link = ROOT.$feedTemp->username;
 					$feedTemp->image = pathang::getHelper('userlog')->getUserImage($feedTemp);
 					$feedTemp->time_stamp = pathang::getHelper('feedprocess')->ago($feedTemp->time_stamp);
@@ -102,7 +102,7 @@ class ControllerProfile{
 					foreach($b as $c => $d)
 						$feedTemp->$c = $d;
 					$feedTemp->image ='';
-					$feedTemp->feed = htmlspecialchars_decode($feedTemp->feed);
+					$feedTemp->feed = $feedTemp->feed;
 					$feedTemp->profile_link = ROOT.$feedTemp->username;
 					$feedTemp->image = pathang::getHelper('userlog')->getUserImage($feedTemp);
 					$feedTemp->time_stamp = pathang::getHelper('feedprocess')->ago($feedTemp->time_stamp);
