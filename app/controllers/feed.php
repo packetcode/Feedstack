@@ -143,6 +143,7 @@ class ControllerFeed{
 			}
 			else{
 				pathang::GetInstance('pathang')->SITE->PAGE = 'login';
+				$basket = pathang::GetInstance('basket');
 				$basket->set('heading','OPPS !');
 				$basket->set('message','The page your searching for doesnot exist.
 							Please contact the site administrator for further queries.');	
