@@ -44,7 +44,12 @@ Feed Wall
 -------------------------
 Profile Page
 [![Home Page](http://feedstack.asia/img/screenshots/c.png)](http://feedstack.asia/product)
--------------------------
+
+Do give your valuable feedback... together we can make this an awesome script :)
+----------------------------------------------------------------
+Developed by :Krishna Teja @www.packetcode.com 
+
+
 
 
 
