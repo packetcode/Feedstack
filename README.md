@@ -1,10 +1,13 @@
 [![Feedstack](img/logo_feedstack.png)](http://feedstack.asia/)
 =========
 
-A simple php social networking script designed using pathang framework. It has all the kool features to compete with the modern day social scripts. A clean responsive template, admin panel to customize the website, smooth jquery animation effects keeps the feedstack standing out the crowd.Above all its absolute freeware and open source licensed under GNU/GPL v2
+A simple php social networking script designed using pathang framework. It has all the kool features to compete with the modern day social scripts. A clean responsive template, admin panel to customize the website, smooth jquery animation effects keeps the feedstack standing out the crowd.Above all its absolute freeware and open source licensed under GNU/GPL v2<br>
 
-Test it LIVE at : https://feedstack.asia/<br>
-Product Page : https://feedstack.asia/product
+Requirements : PHP 5.3 or 5.3+, MySQLi
+
+Live Demo : https://feedstack.asia/<br>
+Product Page : https://feedstack.asia/product <br>
+Video Promo : http://www.youtube.com/watch?v=RMWSYYnTWTs
 
 USER FEATURES
 --------
@@ -31,4 +34,20 @@ Admin Features:
 8. Responsive theme
 9. Smooth jquery animations
 
-Requirements : PHP 5.3 or 5.3+, MySQLi
+Screenshots
+-------------------
+Home Page
+[![Home Page](http://feedstack.asia/img/screenshots/a.png)](http://feedstack.asia/)
+-------------------------
+Feed Wall
+[![Home Page](http://feedstack.asia/img/screenshots/b.png)](http://feedstack.asia/feed/)
+-------------------------
+Profile Page
+[![Home Page](http://feedstack.asia/img/screenshots/c.png)](http://feedstack.asia/product)
+-------------------------
+
+
+
+
+
+
