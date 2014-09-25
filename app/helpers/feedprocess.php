@@ -229,7 +229,12 @@ Class HelperFeedProcess{
 			if($this->isValidUrl($url)==true)
 			{
 				
-				$file = file_get_contents($url);	
+				// change in getting remote data
+				$file = @file_get_contents($url);
+				// returning null if error occured	
+				if (!strpos($http_response_header[0], "200")) { 
+				   return '';
+				} 
 				$tags= get_meta_tags($url);
 				if(preg_match("/<title>(.+)<\/title>/i",$file,$result))
 				{
