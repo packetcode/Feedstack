@@ -30,7 +30,7 @@
 		</a>
 	</div>
 	<div class="member-name">
-		<a href="<?php echo $b->profile_link; ?>"><?php echo $b->name;?></a>
+		<a href="<?php echo $b->profile_link; ?>"><?php echo substr($b->name,0,15);?></a>
 	</div>
 </div>
 <?php 

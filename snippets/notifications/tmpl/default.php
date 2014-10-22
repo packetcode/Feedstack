@@ -1,34 +1,4 @@
 <style>
-.notify-block{
-	margin:10px;
-	margin-top:0px;
-	margin-bottom: 20px;
-	padding:10px;
-	background: white;
-	width:240px;
-	border-radius: 5px;
-}
-.notify-title a{
-	color:#039;
-}
-.unread{
-	font-size: 12px;
-	color:silver;
-	font-weight: bold;
-}
-.ago{
-	font-size: 10px;
-	color:silver;
-}
-.unread-count{
-	background: #95a5a6;
-	color:white;
-	padding:4px;
-	border-radius: 10px;
-}
-.table{
-	width:100%;
-}
 </style>
 <link href="<?php echo ROOT; ?>lib/expresscss/style.css" rel="stylesheet">
 <?php 	$notify = pathang::GetInstance('packet')->get('notify'); 

@@ -1,8 +1,12 @@
+.menu{
+	background:#919991;
+	padding: 10px 5px;
+}
 .menu-bar{
-	padding-top:13px;
+	padding:5px;
 	margin:0px;
 	list-style: none;
-	float:right;
+	text-align: center
 }
 .menu-bar li{
 	padding:10px;
@@ -11,14 +15,13 @@
 	display: inline;
 }
 .menu-bar li:hover{
-	background:#3E566F;
+	background:#757D75;
 	cursor: pointer;
 	border-radius: 5px;
 }
 
 .menu-bar li.product{
 	background:#e74c3c;
-	
 	cursor: pointer;
 	border-radius: 5px;
 }
@@ -43,10 +46,10 @@
 
 @media screen and (max-width:640px){
 	.menu{
-		background:#2c3e50;
+		background:#919991;
 	}
 	.menu-bar li:hover{
-		background:#34495e;
+		background:#757D75;
 		cursor: pointer;
 		border-radius: 0px;
 	}
@@ -56,18 +59,24 @@
 		padding: 10px 0px;
 		text-align:center;
 	}
+	.menu{
+		padding: 0px;
+	}
 }
 
 @media screen and (max-width:480px){
+	.menu{
+		padding: 0px;
+	}
 	.menu-bar li{
-		background:#2c3e50;
+		background:#919991;
 		cursor: pointer;
 		border-radius: 0px;
 		width:100%;
 		display:block;
 	}
 	.menu-bar li:hover{
-		background:#34495e;
+		background:#757D75;
 	}
 	.menu-text{
 		display:inherit;

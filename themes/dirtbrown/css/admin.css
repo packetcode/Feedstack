@@ -1,6 +1,7 @@
 .header-bar{
 	padding:20px;
 	background: white;
+	border: 2px solid #f8f8f8;
 }
 .admin-title{
 	padding:10px 20px;
@@ -10,6 +11,10 @@
 .head-dashboard{
 	background-color:#16a085;
 	padding:25px;
+
+}
+.dashboard{
+	border: 2px solid #f8f8f8;
 }
 .heading-admin{
 	color:White;
@@ -66,7 +71,7 @@
 	min-height: 400px;
 }
 .head-dashboard{
-	background-color:#16a085;
+	background-color:#48929B;
 	padding:25px;
 }
 .heading-admin{
@@ -116,7 +121,7 @@
 
 .btn {
 	padding:3px 10px;
-	background: #16a085;
+	background: #48929B;
 
 }
 .b2{
@@ -139,6 +144,7 @@
 	border-top: 1px solid silver;
 }
 
+
 	.admin-card{
 		background: white;
 		padding: 15px;
@@ -149,15 +155,15 @@
 		margin-left: 0px;
 	}
 	.feed-menu-list li{
-		background: #2980b9;
+		background: #48929B;
 	}
 	.feed-menu-list li:hover{
-		background:#3498db;
+		background:#317589;
 	}
 	.feed-menu-list li.active{
-		background: #3498db;
+		background: #317589;
 	}
-	
+
 @media screen and (max-width:480px){
 	.stats{
 		height: 450px;
@@ -169,7 +175,7 @@
 		left:0px;
 	}
 	.feed-menu-container{
-		background: #2980b9;
+		background: #48929B;
 	}
 	.bcol-25,.bcol-50{
 		width:100%;

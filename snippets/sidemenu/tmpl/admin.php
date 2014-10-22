@@ -1,22 +1,5 @@
 <style>
-	.admin-card{
-		background: white;
-		padding: 15px;
-		font-size: 20px;
-	}
-	.flip{
-		margin-right: 10px;
-		margin-left: 0px;
-	}
-	.feed-menu-list li{
-		background: #2980b9;
-	}
-	.feed-menu-list li:hover{
-		background:#3498db;
-	}
-	.feed-menu-list li.active{
-		background: #3498db;
-	}
+
 </style>
 	<?php
 		$admin = $general=$feed=$page=$ads=$mailgun=null;

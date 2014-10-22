@@ -1,0 +1,6 @@
+Feedstack v1.1
+
+# Added a theme dirtbrown
+# Inline styles in following/followers/notifications snippet has bene moved to theme files
+# simplex styles have been modified a bit
+# memmbers extra lengh in names is distrubing the alignment so its confined to 15 chars

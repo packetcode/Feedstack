@@ -1,19 +1,31 @@
 
 .body{
-	background:#EEF4F4;
 	padding:1%;
 	padding-top:0px;
+	background: white;
 }
 .header{
 	padding:0px 1%;
-	background:#34495E;
+	background: #757D75;
 }
 .footer{
 	padding: 0px 1%;
 
 }
+.footer-pad{
+	padding: 10px 20px;
+}
 .footer .container-main{
-	
+	border-top: 1px solid #CBD1CB;
+	background: #f8f8f8;
+	padding-top: 20px;
+}
+.edit-container{
+	border: 1px solid #eeeeee;
+}
+.logo{
+	text-align: center;
+	padding: 20px;
 }
 .container-main{
 	max-width:900px;
@@ -24,7 +36,7 @@
 	padding:20px 0px;
 }
 .pad-header{
-	padding:20px 0px;
+	padding:20px 0px 0px;
 }
 
 .notify-container{

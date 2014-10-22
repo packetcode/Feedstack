@@ -1,26 +1,5 @@
 <style>
-.followers{
-	padding:2px;
-	width:40px;
-}
-.follower-container{
-	padding-left:10px;
-}
-.follower-title{
-	font-size: 20px;
-	line-height: 25px;
-	padding:10px 0px; 
-}
-.follower-title{
-	font-size: 20px;
-	line-height: 25px;
-	padding:10px 0px 15px;
-}
-.block{
-	background: white;
-	padding:10px;
-	border-radius: 5px;
-}
+
 </style>
 <?php
 	$followers = pathang::getInstance('packet')->get('followers');

@@ -19,9 +19,6 @@
 	$allowed_delete = $basket->get('allowed_delete');
 ?>
 <style>
-body{
-	background:#EEF4F4;
-}
 .footer{
 	background: white;
 }
