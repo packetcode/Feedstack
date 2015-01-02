@@ -238,7 +238,7 @@ class ControllerProfile{
 		$request = pathang::getInstance('request');
 		$user = pathang::getInstance('node')->get('n1');
 		$liveuser = pathang::getInstance('session')->get('liveuser')->username;
-		if($user==$liveuser){
+		if(strtolower($user)==strtolower($liveuser)){
 			if($request->Get('name')){
 				pathang::GetModel('profile')->saveUser();
 				header('Location: '.ROOT.$user);
