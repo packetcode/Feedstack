@@ -175,7 +175,7 @@ class modelProfile{
 		$table = 'followers';
 
 		$sql = "SELECT u.name,u.id,u.username,u.email,u.image_type FROM followers f,users u
-				WHERE f.uid= $uid and f.follow_id = u.id";
+				WHERE f.uid= $uid and f.follow_id = u.id LIMIT 20";
 
 		//query and fetch the result
 		$res=$pdo->query($sql);
@@ -213,7 +213,7 @@ class modelProfile{
 		$table = 'followers';
 
 		$sql = "SELECT u.name,u.id,u.username,u.email,u.image_type FROM followers f,users u
-				WHERE f.follow_id= $uid and f.uid= u.id";	
+				WHERE f.follow_id= $uid and f.uid= u.id LIMIT 20";	
 
 		//query and fetch the result
 		$res=$pdo->query($sql);
@@ -273,7 +273,7 @@ class modelProfile{
 
 		if($uid)
 		$sql = "SELECT * FROM $table 
-				WHERE uid= $uid and follow_id=$follow_id";
+				WHERE uid= $uid and follow_id=$follow_id LIMIT 20";
 		else
 			return '0';		
 
