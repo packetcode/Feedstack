@@ -1,7 +1,6 @@
 .profile{
 	background:white;
 	margin-bottom: 20px;
-	margin-top: -20px;
 	border-radius:0px 5px 5px 0px;
 	width:99%;
 }
@@ -98,6 +97,60 @@
 #file{
 	padding-bottom: 10px;
 }	
+
+
+.notify-block{
+	margin:10px;
+	margin-top:0px;
+	margin-bottom: 20px;
+	padding:10px;
+	background: white;
+	width:240px;
+	border-radius: 5px;
+}
+.notify-title a{
+	color:#039;
+}
+.unread{
+	font-size: 12px;
+	color:silver;
+	font-weight: bold;
+}
+.ago{
+	font-size: 10px;
+	color:silver;
+}
+.unread-count{
+	background: #95a5a6;
+	color:white;
+	padding:4px;
+	border-radius: 10px;
+}
+.table{
+	width:100%;
+}
+.followers{
+	padding:2px;
+	width:40px;
+}
+.follower-container{
+	padding-left:10px;
+}
+.follower-title{
+	font-size: 20px;
+	line-height: 25px;
+	padding:10px 0px; 
+}
+.block{
+	background: white;
+	padding:10px;
+	border-radius: 5px;
+}
+.follower-count{
+	font-size:11px;
+	font-weight:bold;
+	color:silver;
+}
 @media screen and (max-width:640px){
 	.mobile-hidden-main-image,.notify-block{
 		display: none;

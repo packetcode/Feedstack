@@ -138,6 +138,26 @@
 	background: #f8f8f8;
 	border-top: 1px solid silver;
 }
+
+	.admin-card{
+		background: white;
+		padding: 15px;
+		font-size: 20px;
+	}
+	.flip{
+		margin-right: 10px;
+		margin-left: 0px;
+	}
+	.feed-menu-list li{
+		background: #2980b9;
+	}
+	.feed-menu-list li:hover{
+		background:#3498db;
+	}
+	.feed-menu-list li.active{
+		background: #3498db;
+	}
+	
 @media screen and (max-width:480px){
 	.stats{
 		height: 450px;
