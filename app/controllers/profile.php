@@ -481,7 +481,7 @@ class ControllerProfile{
 		$y = $y*$percent;
 		$height = $height*$percent;
 		
-		echo $x.' '.$y.' '.$width.' '.$height;
+		//echo $x.' '.$y.' '.$width.' '.$height;
 		//exit();
 		$image = new hashimage();
 		$image->load($imagefile)->crop($x,$y,$width,$height)
