@@ -1,0 +1,112 @@
+
+/* CSS file to style the pages from view - userlog */
+
+.input{
+	outline:0;
+	width:100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.btn-login{
+	background:#16a085;
+	padding:8px 25px;
+	margin:8px 0px;
+}
+.red{
+	background:#F39C11;
+}
+.box-userlog{
+	width:300px;
+}
+.box{
+	background:white;
+	padding:15px 20px 1px;
+	border-radius:10px;
+}
+.error{
+	background:silver;
+	color:white;
+	padding:10px;
+	border-radius:5px;
+	font-weight:bold;
+	margin-bottom: 10px;
+}
+.activation{
+	font-size:12px;
+	font-weight: normal;
+}
+
+
+.availability{
+	font-weight: bold;
+}
+input.error-input{
+	border:1px solid #e74c3c;
+}
+.error-drop{
+	background: #e74c3c;
+	padding:5px;
+	color:white;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+.a-red{
+	background: #e74c3c;
+}
+.a-green{
+	background: #2ecc71;
+}
+.check-username{
+	background: #bdc3c7;
+	border-radius: 5px;
+	padding:3px 10px;
+	color:white;
+	font-weight: bold;
+	cursor: pointer;
+}
+.register{
+	font-weight: bold;
+}
+.error-drop{
+	display:none;
+}
+.ash{
+	color:silver;
+}
+.login-image{
+	width:200px;
+	border-radius: 10px;
+}
+	.login-box{
+		background:white;
+		padding:20px;
+		border-radius: 5px;
+	}
+	.log-input{
+	}
+	.log-title{
+		font-weight: bold;
+		padding: 10px 0px;
+	}
+
+@media screen and (max-width:640px){
+	.bcol-30,.bcol-70{
+		width:98%;
+	}
+	.login-box{
+		background:white;
+		padding:20px;
+		border-radius: 5px;
+	}
+
+	.box-userlog{
+		padding-left: 10px;
+	}
+}
+@media screen and (max-width:480px){
+	.box-userlog{
+		padding-left: 3%;
+		width:94%;
+	}
+}
