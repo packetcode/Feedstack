@@ -2,6 +2,18 @@
 	font-size: 12px;
 	color: silver;
 }
+.header-member{
+	background:white;
+	padding:30px 30px 0px 30px;
+	margin-bottom: 10px;
+	font-size:30px;
+}
+
+.header-member{
+	border-top: 5px solid #EEEEEE;
+	background: #FCFCFC;
+	padding: 20px;
+}
 .member-body{
 	background: white;
 }
@@ -9,6 +21,7 @@
 	padding:0px;
 	width:150px;
 }
+
 .bcol-member-block{
 	width:150px;
 	border:1px solid #ecf0f1;
@@ -42,12 +55,7 @@ input.member-search{
 	float:right;
 	margin-top:-10px;
 }
-.header-member{
-	background:white;
-	padding:30px 30px 0px 30px;
-	margin-bottom: 10px;
-	font-size:30px;
-}
+
 .no-member{
 	padding:10px;
 	background: #f8f8f8;
@@ -68,7 +76,7 @@ input.member-search{
 /* for devices less than 480px screen */
 @media screen and (max-width:640px){
 .header-member{
-	background:white;
+	background:#FCFCFC;
 	padding:25px 25px 10px 20px;
 	margin-bottom: 10px;
 	font-size:25px;
