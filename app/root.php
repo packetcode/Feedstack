@@ -70,7 +70,7 @@ class controllerRoot{
 
 	public function terms(){
 		pathang::getInstance('pathang')->SITE->PAGE='members';
-		pathang::render('general','terms_of_use');
+		pathang::render('general','terms');
 	}
 	public function contact(){
 		pathang::getInstance('pathang')->SITE->PAGE='members';
